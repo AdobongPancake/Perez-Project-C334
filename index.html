@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modern CSS Features Demo</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <!-- Navigation Bar -->
+
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">CSS Demo</div>
+            <div class="nav-logo">CSS D& Javascript demo</div>
             <input type="checkbox" id="nav-toggle">
             <label for="nav-toggle" class="nav-toggle-label">
                 <span></span>
@@ -26,10 +27,8 @@
         </div>
     </nav>
 
-    <!-- Main Content -->
     <main class="container">
 
-        <!-- Form Section -->
         <section class="form-section">
             <h2>Contact Form</h2>
             <form class="contact-form">
@@ -49,7 +48,6 @@
             </form>
         </section>
 
-        <!-- Transform Sections -->
         <section class="transform-section">
             <h2>2D Transform Examples</h2>
             <div class="transform-examples">
@@ -73,10 +71,57 @@
                 </div>
             </div>
         </section>
+
+                <div class="javascript-activity">
+            <h1>For Laboratory Activity 1 and Quiz 1</h1>
+
+            <section>
+                <h2>JavaScript Variables</h2>
+                <button onclick="showVariables()">Run</button>
+                <pre id="variables-output"></pre>
+            </section>
+
+            <section>
+                <h2>Operators</h2>
+                <button onclick="showOperators()">Run</button>
+                <pre id="operators-output"></pre>
+            </section>
+
+            <section>
+                <h2>Conditional Statement</h2>
+                <button onclick="showConditionals()">Run</button>
+                <pre id="conditionals-output"></pre>
+            </section>
+
+            <section>
+                <h2>JS Loops</h2>
+                <button onclick="showLoops()">Run</button>
+                <pre id="loops-output"></pre>
+            </section>
+
+            <section>
+                <h2>Strings</h2>
+                <button onclick="showStrings()">Run</button>
+                <pre id="strings-output"></pre>
+            </section>
+
+            <section>
+                <h2>Functions</h2>
+                <button onclick="showFunctions()">Run</button>
+                <pre id="functions-output"></pre>
+            </section>
+
+            <section>
+                <h2>Objects</h2>
+                <button onclick="showObjects()">Run</button>
+                <pre id="objects-output"></pre>
+            </section>
+        </div>
     </main>
 
-    <footer>
-        <p>&copy; 2023 CSS Features Demo. All rights reserved.</p>
-    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+    </main>
 </body>
 </html>
